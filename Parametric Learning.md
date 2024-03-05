@@ -146,9 +146,68 @@ Prediction:
 
 ## Support Vector Machine
 
+Notation: 
+- Classifier $g(z)$
+- Hyperplane $h(x)$
+- labels $y \in [-1,1]$
+- $g(z) = 1$ if $z \geq 0$ else $g(z)=-1$ 
+- $r$ is euclidean distance from data point x to x projected onto hyperplane 
+- $\frac{w}{||w||}$ is unit vector orthogonal to hyperplane
 
+Any data point x can be decomposed into: $$x = x_{p} + r\frac{w}{||w||}$$ This can be rearranged and rewritten as: $$r = \frac{h(x)}{||w||}$$
+Classes are separated by two hyperplanes of margin $\rho$ where $w^{T}x+b \leq \rho, y=-1$ and $w^{T}x+b \geq \rho, y=1$. By definition, support vectors are data points that lie on the margin and thus satisfy equality. 
 
+The distance from x to margin $\rho$ is $r(x) = \frac{y(w^{T}x+b)}{||w||}$ and margin $\rho = \frac{2}{||w||}$ 
 
+#### Constraints: 
+Since we want to maximize margin, then we want to minimize $||w||$. We also want to ensure correctness by placing the hyperplane between the classes. Given these two constraints, we attain the optimization problem: 
+$$
+\begin{align}
+\min_{w,b}w^{T}w \\
+(w^{T}x+b)y^{(i)}\geq 1, \forall i
+\end{align}
+$$
+which can be solved with quadratic programming. The above is referred to as the primal form (cue monkey sounds). Through some fancy optimization math, we can derive the dual form: 
+$$\max_{a^{(i)} \geq 0} \min_{w,b} \frac{1}{2} + \sum\limits_{i}\alpha^{(i)}\left[1-(w^{T}x^{(i)}+b )y^{(i)}\right]$$
+We can leverage this formulation for ease of inference with simply an inner product of a query x and a matrix of support vectors. Given that: 
+$$
+\begin{align*}
+\text{primal: } f(x) = g(w^{T}x + b) \\
+\text{dual: } w = \sum\limits_{i\in SV} alpha^{(i)}y^{(i)}x^{(i)} \\
+\text{substituting in } w \text{: } \\
+f(x) &= g\left(\sum\limits_{i\in SV} alpha^{(i)}y^{(i)}\left<x^{(i)}, x\right>+b\right)
+\end{align*}
+$$
+
+In code, this can be seen as: 
+```python 
+f(x) = alpha * y_SV @ X_SV @ x_new + b
+```
+
+#### Kernel Functions
+Because of we can do prediction with an inner product, we can apply a kernel to lift data into higher dimensions that are more linearly separable. Some example kernel functions: 
+- Polynomial: $K(x, x') = (\gamma x^{T}x + r)^{d}$
+- Radial Basis Function (RBF): $K(x, x') = exp(-\gamma||x-x'||^{2})$
+- Sigmoid: $K(x, x') = tanh(\gamma x^{T}x + r)$
+
+The RBF $\gamma$ parameter when increased can cause overfitting since it allows each data point to have more "influence" and thus a tighter decision boundary that wraps around the classes' data points. 
+
+#### Soft-Margin SVM
+Since there may be outliers, we want to also quantify how much misclassification we're willing to tolerate. The optimization problem is then: 
+$$
+\begin{align}
+\min_{w,b}w^{T}w + C\sum\limits_{i}\zeta^{(i)} \\
+(w^{T}x+b)y^{(i)}\geq 1-\zeta^{(i)}, \forall i \\
+\zeta^{(i)}\geq 0, \forall i
+\end{align}
+$$
+Where: 
+- $\zeta = 0$  when x is on correct side of hyperplane (y is correct)
+- $0 < \zeta < 1$ when x is on correct side but in margins of hyperplane (y is correct)
+- $\zeta > 1$ when x is on wrong side of hyperplane (y is incorrect)
+
+**Influence of C:** 
+C changes the tolerance of misclassifications. Increasing C thus increases the loss, which discourages misclassification more. Theoretically, setting C to infinity recovers hard-margin SVM since there is no tolerance for misclassification. 
 
 
 ## Regularization
