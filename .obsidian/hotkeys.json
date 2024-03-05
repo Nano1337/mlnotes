@@ -1,1 +1,10 @@
-{}
+{
+  "terminal:open-terminal.integrated.current": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ]
+}
