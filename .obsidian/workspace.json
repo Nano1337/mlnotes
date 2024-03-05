@@ -62,6 +62,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6b59e32cb686806b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -194,10 +206,12 @@
   },
   "active": "ad9651861afaf4e1",
   "lastOpenFiles": [
+    "img/Pasted image 20240304205511.png",
     "README.md",
+    "Parametric Learning.md",
+    "image.md",
     "img/Pasted image 20240304191732.png",
     "Basic Stats.md",
-    "Parametric Learning.md",
     "Topics to Study.md",
     "README.md.md",
     "img"
