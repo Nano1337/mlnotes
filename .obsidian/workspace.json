@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "087fda5d09bfa91e",
-        "type": "tabs",
-        "dimension": 45.71197411003236,
-        "children": [
-          {
-            "id": "ad9651861afaf4e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Parametric Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "801431aaa67faaff",
         "type": "tabs",
-        "dimension": 54.28802588996764,
         "children": [
           {
             "id": "9a2e6ce111f9fa2a",
@@ -46,6 +26,18 @@
               "type": "markdown",
               "state": {
                 "file": "Parametric Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aca9ad157461f7eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Error Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "763a62e9b389612e",
@@ -143,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parametric Learning.md",
+                "file": "Error Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Parametric Learning.md",
+                "file": "Error Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Parametric Learning.md"
+                "file": "Error Analysis.md"
               }
             }
           }
@@ -204,11 +195,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad9651861afaf4e1",
+  "active": "aca9ad157461f7eb",
   "lastOpenFiles": [
+    "img/Pasted image 20240304225223.png",
+    "img/Pasted image 20240304215940.png",
+    "Parametric Learning.md",
+    "Error Analysis.md",
     "img/Pasted image 20240304205511.png",
     "README.md",
-    "Parametric Learning.md",
     "image.md",
     "img/Pasted image 20240304191732.png",
     "Basic Stats.md",
