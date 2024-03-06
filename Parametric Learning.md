@@ -211,8 +211,17 @@ C changes the tolerance of misclassifications. Increasing C thus increases the l
 
 
 ## Regularization
-- Ridge (L2) weight norm, causes irrelevant features to converge towards 0
+- Ridge (L2) weight norm, causes irrelevant features to converge towards 0. This is also used in case the pseudoinverse $X^{T}X$ is non-invertible in the closed form. The closed form is given by: 
+$$\theta = (X^{T}X + \lambda I)^{-1}X^{T}y$$
 - Lasso (L1) weight norm, causes sparsity by causing irrelevant features to eventually become 0. 
+
+**Maximum A Posterior (MAP)**: 
+- In Bayesian learning, the model itself is assumed to be stochastic. This is seen as: 
+$$p(Model|Data) = \frac{p(Data|Model)p(Model)}{p(Data)}$$
+Where $p(Model|Data)$ is the posterior, $p(Data|Model)$ is the likelihood, $p(Model)$ is the prior, and $p(Data)$ is the evidence. We can optimize the model parameters through maximum likelihood estimation with terms relevant to the model to get: 
+$$\log p(Model|Data) = \log p(Data|Model) + \log(Model)$$
+Assume our model parameters, w, are Gaussian distributed, then MAP leads to: 
+$$||Xw-y||^{2} + \lambda ||w||^2$$ which is exactly ridge regression
 
 ## Feature Selection
 

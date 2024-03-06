@@ -37,6 +37,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Topics to Study.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "165bfa1e76d8a5cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Error Analysis.md",
                 "mode": "source",
                 "source": false
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -195,18 +207,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aca9ad157461f7eb",
+  "active": "165bfa1e76d8a5cd",
   "lastOpenFiles": [
-    "img/Pasted image 20240304225223.png",
-    "img/Pasted image 20240304215940.png",
+    "MLP.md",
     "Parametric Learning.md",
     "Error Analysis.md",
+    "Optimization and Optimizers.md",
+    "img/Pasted image 20240304234812.png",
+    "Topics to Study.md",
+    "img/Pasted image 20240304225223.png",
+    "img/Pasted image 20240304215940.png",
     "img/Pasted image 20240304205511.png",
     "README.md",
     "image.md",
     "img/Pasted image 20240304191732.png",
     "Basic Stats.md",
-    "Topics to Study.md",
     "README.md.md",
     "img"
   ]

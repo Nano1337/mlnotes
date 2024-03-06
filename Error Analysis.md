@@ -22,6 +22,7 @@ Population Error can be decomposed into:
 	- Basically, how well does this feasible function operate across all theoretical inputs vs the train set inputs
 	- Empirical risk depends on n, so increasing n would decrease statistical error
 	- Complexity results from increasing data dimensionality, which would increase statistical error
+	- Analogous to **Variance**
 - **Optimization Error**: 
 	- Defined as $\hat R (\hat f) - \inf_{f \in F_{\delta}} \hat R(f)$
 	- Only deals with empirical risk since optimization is only possible with existing data
@@ -32,6 +33,11 @@ Population Error can be decomposed into:
 	- Only deals with true error 
 	- Measures how close optimal feasible function is with optimal possible function
 	- Error can be decreased by increasing complexity since that allows $F_{\delta}$ to have a greater chance of containing the optimal possible function
+	- Analogous to **Bias**
 
 This drawing below shows what each of the errors does. The unlabeled error is approximation
 ![[img/Pasted image 20240304225223.png]]
+
+While it seems impossible to decrease statistical and approximation error by increasing model complexity through overparameterization, this is possible because increasing model complexity decreases approximation error and statistical error is hypothesized to decrease because either: 
+1. Overparameterized models find simpler solutions, thus preventing overfitting and decrease variance
+2. Inductive bias of certain architectures like CNN or Transformers reduce total function space $\mathcal{F}$ so approximation error goes down? 
