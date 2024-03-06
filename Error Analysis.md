@@ -38,6 +38,5 @@ Population Error can be decomposed into:
 This drawing below shows what each of the errors does. The unlabeled error is approximation
 ![[img/Pasted image 20240304225223.png]]
 
-While it seems impossible to decrease statistical and approximation error by increasing model complexity through overparameterization, this is possible because increasing model complexity decreases approximation error and statistical error is hypothesized to decrease because either: 
-1. Overparameterized models find simpler solutions, thus preventing overfitting and decrease variance
-2. Inductive bias of certain architectures like CNN or Transformers reduce total function space $\mathcal{F}$ so approximation error goes down? 
+While it seems impossible to decrease statistical and approximation error by increasing model complexity through overparameterization, this is possible because increasing model complexity decreases approximation error and statistical error is hypothesized to decrease because overparameterized models find simpler solutions (e.g. through inductive biases), thus preventing overfitting and decrease variance
+

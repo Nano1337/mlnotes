@@ -12,6 +12,8 @@ $$f(x) = \sum\limits_{m=1}^{M}w_{m}^{1}\left(\sum\limits_{j=0}^{d}W_{jm}\hat x_{
 ### Universal Approximation Theorem
 Neural Network with at least one hidden layer and nonlinear activation can approximate any continuous function to any arbitrary level of accuracy
 
+Intuition on why it's a 
+
 ### Boolean Logic 
 Famously, you need an MLP with at least one hidden layer to model an XOR function. 
 This is because the XOR is only 1 when only one of either inputs X or Y is on. This is represented as: 

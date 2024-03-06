@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Error Analysis.md",
+                "file": "MLP.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Error Analysis.md",
+                "file": "MLP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Error Analysis.md",
+                "file": "MLP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Error Analysis.md"
+                "file": "MLP.md"
               }
             }
           }
@@ -209,9 +209,9 @@
   },
   "active": "165bfa1e76d8a5cd",
   "lastOpenFiles": [
+    "Error Analysis.md",
     "MLP.md",
     "Parametric Learning.md",
-    "Error Analysis.md",
     "Optimization and Optimizers.md",
     "img/Pasted image 20240304234812.png",
     "Topics to Study.md",
