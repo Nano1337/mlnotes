@@ -27,4 +27,3 @@ This can be represented intuitively as 6 weights and 3 thresholds or even smalle
 - Max Depth: Will require 3(N-1) perceptrons (2(N-1) with skip cxns), which is linear in N but is very computationally expensive bc of such depth, adding 
 - Better Depth: pairwise N, so we get $2\log_{2}N$ 
 ![[img/Pasted image 20240306173626.png]]
-

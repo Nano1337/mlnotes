@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MLP.md",
+                "file": "Optimization and Optimizers.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MLP.md",
+                "file": "Optimization and Optimizers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MLP.md",
+                "file": "Optimization and Optimizers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MLP.md"
+                "file": "Optimization and Optimizers.md"
               }
             }
           }
@@ -209,10 +209,10 @@
   },
   "active": "165bfa1e76d8a5cd",
   "lastOpenFiles": [
+    "MLP.md",
     "img/Pasted image 20240306173626.png",
     "img/Pasted image 20240306170714.png",
     "Error Analysis.md",
-    "MLP.md",
     "Parametric Learning.md",
     "Optimization and Optimizers.md",
     "img/Pasted image 20240304234812.png",
