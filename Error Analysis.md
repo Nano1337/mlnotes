@@ -29,7 +29,7 @@ Population Error can be decomposed into:
 	- Measures how close a feasible function is to the optimal feasible function
 	- Error can be decreased with better optimizer
 - **Approximation Error**: 
-	- Defined as  $\inf_{f \in F_{\delta}} R(f) - \inf_{f \in F_{\delta}} R(f)$
+	- Defined as  $\inf_{f \in F_{\delta}} R(f) - \inf_{f \in F} R(f)$
 	- Only deals with true error 
 	- Measures how close optimal feasible function is with optimal possible function
 	- Error can be decreased by increasing complexity since that allows $F_{\delta}$ to have a greater chance of containing the optimal possible function
@@ -40,3 +40,7 @@ This drawing below shows what each of the errors does. The unlabeled error is ap
 
 While it seems impossible to decrease statistical and approximation error by increasing model complexity through overparameterization, this is possible because increasing model complexity decreases approximation error and statistical error is hypothesized to decrease because overparameterized models find simpler solutions (e.g. through inductive biases), thus preventing overfitting and decrease variance
 
+### Double Descent: 
+- First half is the Bias-Variance trade-off you see in traditional ML
+- The second descent happens because once approximation error is fully minimized (overparameterized model finds global minimum basin), the model finds simpler solution so model complexity goes down and thus statistical error also goes down. This could be the explanation for the lottery ticket hypothesis that represent the "simpler" solutions.
+![[Pasted image 20240306223630.png]]

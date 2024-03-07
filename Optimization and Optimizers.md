@@ -137,6 +137,10 @@ $$\lambda_{max}(H(w)) \leq \beta$$
 3. Satisfies the $\mu$- PL* condition in a Ball($w_{0}$, R) with: 
 $$R = \frac{2\sqrt{2\beta \mathcal L(w_0)}}{\mu}$$
 then (S)GD, initialized at $w_0$ with learning rate $\eta \leq \frac{2}{\beta}$ will recover $w^{*}$ such that F(w*) = y, which means there's a solution on the solution manifold. 
+- Rate of convergence: O($\beta$ / t)
+- Norm of gradient below some $\delta$ threshold then we need O($\beta$ / $\delta$) iterations. 
+
+
 
 
 
