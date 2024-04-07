@@ -61,7 +61,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning Blueprint.md",
+                "file": "Optimization and Optimizers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b19cb4eae286dcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -158,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning Blueprint.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning Blueprint.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning Blueprint.md"
+                "file": "README.md"
               }
             }
           }
@@ -219,16 +231,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "949fe6241ccff3ed",
+  "active": "4b19cb4eae286dcc",
   "lastOpenFiles": [
-    "img/Pasted image 20240306235001.png",
-    "Optimization and Optimizers.md",
     "Deep Learning Blueprint.md",
+    "Random Notes/Multimodal Pretrained Model Uncertainty.md",
+    "Random Notes",
+    "Optimization and Optimizers.md",
+    "Parametric Learning.md",
+    "img/Pasted image 20240306235001.png",
     "Error Analysis.md",
     "img/Pasted image 20240306223630.png",
     "Basic Stats.md",
     "Topics to Study.md",
-    "Parametric Learning.md",
     "MLP.md",
     "README.md",
     "img/Pasted image 20240306213656.png",
@@ -239,7 +253,6 @@
     "img/Pasted image 20240306173626.png",
     "img/Pasted image 20240306170714.png",
     "img/Pasted image 20240304234812.png",
-    "img/Pasted image 20240304225223.png",
     "image.md",
     "README.md.md",
     "img"
