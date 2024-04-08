@@ -92,6 +92,42 @@
             }
           },
           {
+            "id": "5d9f3a193ffeefd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dimensionality Reduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "88179cab072714ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topics to Study.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3542ce57ee69c6b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Autoencoders.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4b449022ea927590",
             "type": "leaf",
             "state": {
@@ -116,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -182,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Performance Metrics.md",
+                "file": "Autoencoders.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Performance Metrics.md",
+                "file": "Autoencoders.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Performance Metrics.md"
+                "file": "Autoencoders.md"
               }
             }
           }
@@ -243,29 +279,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e05d32a23422c27",
+  "active": "3542ce57ee69c6b8",
   "lastOpenFiles": [
+    "img/Pasted image 20240407204203.png",
+    "img/Pasted image 20240407203829.png",
+    "img/Pasted image 20240407202828.png",
+    "img/Pasted image 20240407200824.png",
+    "Topics to Study.md",
+    "Autoencoders.md",
+    "MLP.md",
     "README.md",
     "Performance Metrics.md",
+    "Parametric Learning.md",
+    "Optimization and Optimizers.md",
+    "Clustering.md",
+    "Dimensionality Reduction.md",
+    "img/Pasted image 20240407004648.png",
     "Deep Learning Blueprint.md",
     "Random Notes/Multimodal Pretrained Model Uncertainty.md",
     "Random Notes",
-    "Optimization and Optimizers.md",
-    "Parametric Learning.md",
     "img/Pasted image 20240306235001.png",
     "Error Analysis.md",
     "img/Pasted image 20240306223630.png",
     "Basic Stats.md",
-    "Topics to Study.md",
-    "MLP.md",
     "img/Pasted image 20240306213656.png",
     "img/Pasted image 20240306213654.png",
     "img/Pasted image 20240306211419.png",
     "img/Pasted image 20240306210648.png",
-    "img/Pasted image 20240306204607.png",
-    "img/Pasted image 20240306173626.png",
-    "img/Pasted image 20240306170714.png",
-    "img/Pasted image 20240304234812.png",
     "image.md",
     "README.md.md",
     "img"
