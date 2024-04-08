@@ -9,6 +9,9 @@ Kolouri's Special Topics in Deep Learning Lectures:
 - Set NNs - TODO
 - Transformers - TODO
 - RNNs - TODO
-- Batchnorm Backprop - Find in personal lecture 15 notes
-- Autoencoders
+- Batchnorm Backprop - Find in personal lecture 15 notes (midterm review slides)
+- Autoencoders - Done
+- Diffusion Models 
+- Adversarial Attacks/Defense
+- Continual Learning
 
