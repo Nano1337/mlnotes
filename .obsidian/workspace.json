@@ -8,120 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9a2e6ce111f9fa2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics to Study.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49caa51c59e219e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Parametric Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aca9ad157461f7eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics to Study.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "165bfa1e76d8a5cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Optimization and Optimizers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "949fe6241ccff3ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Optimization and Optimizers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b19cb4eae286dcc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e05d32a23422c27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Performance Metrics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d9f3a193ffeefd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dimensionality Reduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88179cab072714ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics to Study.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3542ce57ee69c6b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Topics to Study.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "271d8e4326773f7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Continual Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7687ac25f34b7873",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Meta-Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Adversarial Training and Robustness.md",
+                "file": "Clustering.md",
                 "mode": "source",
                 "source": false
               }
@@ -188,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -254,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adversarial Training and Robustness.md",
+                "file": "Meta-Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Adversarial Training and Robustness.md",
+                "file": "Meta-Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adversarial Training and Robustness.md"
+                "file": "Meta-Learning.md"
               }
             }
           }
@@ -315,33 +231,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c84bdceb9d6a702e",
+  "active": "7687ac25f34b7873",
   "lastOpenFiles": [
-    "Adversarial Attacks.md",
+    "Continual Learning.md",
+    "Meta-Learning.md",
+    "Topics to Study.md",
+    "Untitled",
+    "Dimensionality Reduction.md",
+    "Performance Metrics.md",
+    "README.md",
+    "Optimization and Optimizers.md",
+    "Clustering.md",
+    "MLP.md",
+    "Error Analysis.md",
     "Adversarial Training and Robustness.md",
+    "Adversarial Attacks.md",
     "img/Pasted image 20240408084101.png",
     "img/Pasted image 20240408084054.png",
     "Diffusion Models.md",
     "img/Pasted image 20240407215009.png",
-    "Topics to Study.md",
     "Autoencoders.md",
     "img/Pasted image 20240407204203.png",
     "img/Pasted image 20240407203829.png",
     "img/Pasted image 20240407202828.png",
     "img/Pasted image 20240407200824.png",
-    "MLP.md",
-    "README.md",
-    "Performance Metrics.md",
     "Parametric Learning.md",
-    "Optimization and Optimizers.md",
-    "Clustering.md",
-    "Dimensionality Reduction.md",
     "img/Pasted image 20240407004648.png",
     "Deep Learning Blueprint.md",
     "Random Notes/Multimodal Pretrained Model Uncertainty.md",
     "Random Notes",
     "img/Pasted image 20240306235001.png",
-    "Error Analysis.md",
     "img/Pasted image 20240306223630.png",
     "Basic Stats.md",
     "image.md",

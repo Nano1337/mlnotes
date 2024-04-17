@@ -11,7 +11,9 @@ Kolouri's Special Topics in Deep Learning Lectures:
 - RNNs - TODO
 - Batchnorm Backprop - Find in personal lecture 15 notes (midterm review slides)
 - Autoencoders - Done
-- Diffusion Models 
-- Adversarial Attacks/Defense
-- Continual Learning
+- Diffusion Models - Done
+- Adversarial Attacks/Defense - Done
+- Continual Learning - Starting lecture 21
+- Meta Learning
+- Final Review
 
