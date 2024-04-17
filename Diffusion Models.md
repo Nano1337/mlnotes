@@ -42,3 +42,14 @@ $$L(\theta) = ||\epsilon_{t}-\epsilon_{\theta}(x_{t}, t)||_{2}^{2}$$
 ### Latent/Stable Diffusion
 Speed Up: perform diffusion on low dimensional latent space 
 Conditional Generation: condition denoising on text, images, other embeddings (e.g. fMRI)
+
+
+### In Summary: 
+For the training algorithm:
+
+$\text{Repeat} \quad x_0 \sim q(x_0) \quad t \sim \text{uniform}\{1, \ldots, T\} \quad \epsilon \sim \mathcal{N}(0, I) \quad x_t = \sqrt{\alpha_t} x_0 + \sqrt{1 - \alpha_t} \epsilon \quad \theta \leftarrow \theta + \eta \nabla_\theta \| \epsilon - \epsilon_\theta(x_t, t) \|^2 \quad \text{Until convergence}$
+
+For the testing algorithm:
+
+$x_T \sim \mathcal{N}(x_0, I) \quad \text{For } t = T, \ldots, 1 \quad \text{do} \quad \epsilon \sim \mathcal{N}(0, I) \text{ if } t > 1, \text{ else } \epsilon = 0 \quad x_{t-1} = \frac{1}{\sqrt{\alpha_t}} \left( x_t - \frac{1-\alpha_t}{\sqrt{1-\alpha_t}}\epsilon_\theta(x_t, t) \right) + \sqrt{\alpha_t}\epsilon \quad \text{Return } x_0$
+

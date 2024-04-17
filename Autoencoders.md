@@ -21,16 +21,33 @@ $$D_{KL}(p||q) = \mathbb{E}_{x}\left[\log \frac{p(x)}{q(x)}\right]$$
 - How do we calculate a Divergence metric when we don't have access to the data distribution? Recall, we are only given access to a batch of samples at training time. 
 
 ### Adversarial Networks
-One way we can enforce the latent distribution to follow the prior distribution is through adversarial networks by using a discriminator (adversary) to judge whether a generated output is real or fake. This training method actually allows us to provably measure JSD at an individual sample level. The proof is shown below. Note that $\eta$ is the Discriminator D here. 
+One way we can enforce the latent distribution to follow the prior distribution is through adversarial networks by using a discriminator (adversary) to judge whether a generated output is real or fake. This training method actually allows us to provably measure JSD at an individual sample level. 
+
+Loss: $\min_{\theta_g,\theta_\phi} \max_{\eta} \mathbb{E}_{x\sim p_X}[\|x - \phi(\theta(x))\|^2] + \lambda \log(1 - \eta(\phi(x))) + \mathbb{E}_{z\sim q_z}[\log(\eta(z))]$ where first term is MSE and other terms are JSD. 
+The proof deriving JSD is shown below. Note that $\eta$ is the Discriminator D here. 
 ![[img/Pasted image 20240407200824.png]]
 We can see that there is actually an extra term $-2\log(2)$, which acts as a lower bound on the loss if p(z) = q(z). In other words, if discriminator gives p = 0.5, meaning that $\eta(z) = 0.5$ from the initial distance formula, then we get $-\log(2) + -\log(2) = -2\log(2)$. 
+
 
 ### Mode Collapse
 However, we may get mode collapse when the generator starts producing a limited variety of outputs, failing to capture the full diversity of the target distribution. 
 
 ### Wasserstein GAN
 - Also known as Earth Mover's distance. Quantifies the amount of "work" moving a probability distribution to another. This better quantifies probabilistic distance than other metric, but I won't get into the details here. 
+For the dual formulation for 1-Wasserstein distance:
+$$
+W_1(p, q) = \max_{\|\eta\|_L \leq 1} \left( \int_X \eta(x)p(x)dx - \int_Y \eta(y)q(y)dy \right), \quad X, Y \subseteq \mathbb{R}^d
+$$
 
+For the Wasserstein Adversarial Networks:
+$$
+D(p_z, q_z) = \max_{\|\eta\|_L \leq 1} \mathbb{E}_{z\sim q_z}[\ln(\eta(z))] - \mathbb{E}_{z'\sim p_z}[\ln(\eta(z'))]
+$$
+
+For the Loss function:
+$$
+\min_{\theta_g,\theta_\phi} \max_{\|\eta\|_L \leq 1} \mathbb{E}_{x\sim p_X}[\|x - \psi(\phi(x))\|^2] + \lambda \left( 2\eta(\phi(x)) - \mathbb{E}_{z\sim q_z}[\ln(\eta(z))] \right)
+$$
 
 ## Variational Autoencoders
 The prior $p(z)$ here is a simple Gaussian, which is mathematically convenient to work with, while the conditional output $p(x|z)$ is complex (image generated). Thus, we would ideally use MLE to estimate the parameters: 
@@ -40,6 +57,8 @@ However, marginalizing across all $z$ is simply not practically possible, which 
 Solution, in addition to decoder network $p_{\theta}(x|z)$, we also need to estimate an encoder $q_{\phi}(z|x)$ model. We can derive the loss terms based on the Evidence-based Lower Bound (ELBO) that we want to maximize: 
 ![[img/Pasted image 20240407202828.png]]
 The first term is the reconstruction loss and the second term is to make the approximate posterior close to the Gaussian prior. 
+
+INSERT TYPED OUT PROOF FROM REPRESENTATION LEARNING HW FROM LAST YEAR
 
 #### Reparameterization Trick: 
 To take a forward pass through the VAE, we have to sample from the latent distribution (Gaussian in this case). However, we can't backprop through such a stochastic operation, so the reparameterization trick is used. Since we estimate $\mu$ and $\sigma$ through the encoder model, instead of drawing z from $N(\mu, \sigma^{2})$ , we can instead draw $\epsilon$ from N(0, 1) and then get z = $\mu$ + $\sigma * \epsilon$, and thus gradient calculation isn't affected. 
