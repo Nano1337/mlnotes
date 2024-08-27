@@ -2,7 +2,7 @@
   "terminal:open-terminal.integrated.current": [
     {
       "modifiers": [
-        "Mod"
+        "Ctrl"
       ],
       "key": "`"
     }
