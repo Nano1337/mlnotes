@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "a2a9662242efebdb",
+        "id": "8965099210534527",
         "type": "split",
         "children": [
           {
@@ -41,7 +41,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Topics to Study.md",
+                    "file": "RL/2. Optimization and MDPs.md",
                     "mode": "source",
                     "source": false
                   }
@@ -139,18 +139,18 @@
             "currentTab": 2
           },
           {
-            "id": "408661b079763963",
+            "id": "986ed7680179f9ab",
             "type": "tabs",
             "children": [
               {
-                "id": "b2986d8b252c5458",
+                "id": "d02a10e132037177",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
                     "terminal:terminal": {
-                      "cwd": "/Users/haoli/Documents/mlnotes/",
+                      "cwd": "/Users/haoli/Documents/mlnotes/RL",
                       "focus": false,
                       "profile": {
                         "args": [],
@@ -173,9 +173,9 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 136,
-                        "data": "/Users/haoli/.zshrc:2: command not found: pyenv\r\n/Users/haoli/.zshrc:3: command not found: pyenv\r\nhaoli@ip-10-71-23-227 mlnotes % ls\r\nDeep Learning\u001b[11CREADME.md\u001b[15CTopics to Study.md\r\nML Fundamentals\u001b[9CRandom Notes\u001b[12Cimg\r\nhaoli@ip-10-71-23-227 mlnotes % git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add/rm <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/community-plugins.json\r\n\u001b[8Cmodified:   .obsidian/hotkeys.json\r\n\u001b[8Cmodified:   .obsidian/workspace.json\r\n\u001b[8Cdeleted:    Adversarial Attacks.md\r\n\u001b[8Cdeleted:    Adversarial Training and Robustness.md\r\n\u001b[8Cdeleted:    Autoencoders.md\r\n\u001b[8Cdeleted:    Basic Stats.md\r\n\u001b[8Cdeleted:    Clustering.md\r\n\u001b[8Cdeleted:    Continual Learning.md\r\n\u001b[8Cdeleted:    Deep Learning Blueprint.md\r\n\u001b[8Cdeleted:    Diffusion Models.md\r\n\u001b[8Cdeleted:    Dimensionality Reduction.md\r\n\u001b[8Cdeleted:    Error Analysis.md\r\n\u001b[8Cdeleted:    MLP.md\r\n\u001b[8Cdeleted:    Meta-Learning.md\r\n\u001b[8Cdeleted:    Optimization and Optimizers.md\r\n\u001b[8Cdeleted:    Parametric Learning.md\r\n\u001b[8Cdeleted:    Performance Metrics.md\r\n\u001b[8Cmodified:   Topics to Study.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m.obsidian/plugins/terminal/\r\n\u001b[8CDeep Learning/\r\n\u001b[8CML Fundamentals/\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\nhaoli@ip-10-71-23-227 mlnotes % git add .\r\nhaoli@ip-10-71-23-227 mlnotes % git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mmodified:   .obsidian/community-plugins.json\r\n\u001b[8Cmodified:   .obsidian/hotkeys.json\r\n\u001b[8Cnew file:   .obsidian/plugins/terminal/data.json\r\n\u001b[8Cnew file:   .obsidian/plugins/terminal/main.js\r\n\u001b[8Cnew file:   .obsidian/plugins/terminal/manifest.json\r\n\u001b[8Cnew file:   .obsidian/plugins/terminal/styles.css\r\n\u001b[8Cmodified:   .obsidian/workspace.json\r\n\u001b[8Crenamed:    Adversarial Attacks.md -> Deep Learning/Adversarial Attacks.md\r\n\u001b[8Crenamed:    Adversarial Training and Robustness.md -> Deep Learning/Adversarial Training and Robustness.md\r\n\u001b[8Crenamed:    Autoencoders.md -> Deep Learning/Autoencoders.md\r\n\u001b[8Crenamed:    Continual Learning.md -> Deep Learning/Continual Learning.md\r\n\u001b[8Crenamed:    Deep Learning Blueprint.md -> Deep Learning/Deep Learning Blueprint.md\r\n\u001b[8Crenamed:    Diffusion Models.md -> Deep Learning/Diffusion Models.md\r\n\u001b[8Crenamed:    MLP.md -> Deep Learning/MLP.md\r\n\u001b[8Crenamed:    Meta-Learning.md -> Deep Learning/Meta-Learning.md\r\n\u001b[8Crenamed:    Basic Stats.md -> ML Fundamentals/Basic Stats.md\r\n\u001b[8Crenamed:    Clustering.md -> ML Fundamentals/Clustering.md\r\n\u001b[8Crenamed:    Dimensionality Reduction.md -> ML Fundamentals/Dimensionality Reduction.md\r\n\u001b[8Crenamed:    Error Analysis.md -> ML Fundamentals/Error Analysis.md\r\n\u001b[8Crenamed:    Optimization and Optimizers.md -> ML Fundamentals/Optimization and Optimizers.md\r\n\u001b[8Crenamed:    Parametric Learning.md -> ML Fundamentals/Parametric Learning.md\r\n\u001b[8Crenamed:    Performance Metrics.md -> ML Fundamentals/Performance Metrics.md\r\n\u001b[8Cmodified:   Topics to Study.md\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0mhaoli@ip-10-71-23-227 mlnotes % goit add . \r\nzsh: command not found: goit\r\nhaoli@ip-10-71-23-227 mlnotes %      \u001b[5D",
-                        "rows": 20
+                        "columns": 126,
+                        "data": "/Users/haoli/.zshrc:2: command not found: pyenv\r\n/Users/haoli/.zshrc:3: command not found: pyenv\r\nhaoli@ip-10-71-23-227 RL % ls\r\n1. Basic Terminology.md\u001b[9C2. Optimization and MDPs.md\r\nhaoli@ip-10-71-23-227 RL % cd ..\r\nhaoli@ip-10-71-23-227 mlnotes % ls\r\nDeep Learning\u001b[11CREADME.md\u001b[15CRandom Notes\u001b[12Cimg\r\nML Fundamentals\u001b[9CRL\u001b[22CTopics to Study.md\r\nhaoli@ip-10-71-23-227 mlnotes % git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31mRL/\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\nhaoli@ip-10-71-23-227 mlnotes % git",
+                        "rows": 17
                       }
                     }
                   },
@@ -309,16 +309,20 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "b2986d8b252c5458",
+  "active": "d02a10e132037177",
   "lastOpenFiles": [
+    "RL/2. Optimization and MDPs.md",
+    "ML Fundamentals/Parametric Learning.md",
+    "ML Fundamentals/Dimensionality Reduction.md",
+    "RL/1. Basic Terminology.md",
+    "README.md",
     "Topics to Study.md",
+    "RL",
     "Untitled.canvas",
     "2024-08-27.md",
     "Deep Learning/Adversarial Attacks.md",
     "Deep Learning/MLP.md",
     "Deep Learning",
-    "README.md",
-    "ML Fundamentals/Dimensionality Reduction.md",
     "Deep Learning/Meta-Learning.md",
     "ML Fundamentals",
     "Deep Learning/Diffusion Models.md",
@@ -337,7 +341,6 @@
     "img/Pasted image 20240407203829.png",
     "img/Pasted image 20240407202828.png",
     "img/Pasted image 20240407200824.png",
-    "ML Fundamentals/Parametric Learning.md",
     "img/Pasted image 20240407004648.png",
     "Deep Learning/Deep Learning Blueprint.md",
     "Random Notes/Multimodal Pretrained Model Uncertainty.md",
