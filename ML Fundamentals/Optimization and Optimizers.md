@@ -22,6 +22,10 @@ Substituting in $w^{(t+1)} =  (w^{(t)} - \epsilon g^{(t)})$:
 $${L}(w^{t+1}) = {L}(w^{t}) - \epsilon (g^{(t)})^T g^{(t)} + \frac{1}{2}\epsilon^2 (g^{(t)})^T H^{(t)} g^{(t)} $$
 Solving for $\epsilon$ we get: 
 $$    \epsilon \leq \frac{2 (g^{(t)})^T g^{(t)} }{(g^{(t)})^T H^{(t)} g^{(t)} }$$
+ **Newton's method solver:**
+ $\delta = -H(x)^{-1}\nabla_{x}f(x)$
+- But this isn't practical bc 1) we'd have to calculate inverse hessian at every step, 2) Hessian isn't always invertible and not full rank bc data lies on lower dimensional manifold
+
 **Beta-Smoothness:**
 Now assume $v^T H v \leq \beta ||v||^2$, $\forall v$. This can be re-arranged as follows: 
 $$    \frac{v^T H v}{||v||^2} \leq \beta$$
@@ -48,6 +52,8 @@ $$w = \frac{\epsilon}{B}$$ where $\epsilon$ is the learning rate and B is the ba
 
 ## First Order Methods: 
 - Improve convergence by normalizing the mean of the derivatives
+- Note for diagrams: 
+	- we see oscillations bc gradient points in direction orthogonal to loss trace
 ### Momentum 
 maintains a running average of all gradients until current step. The running average: 
 - Gets longer in directions where the gradient retains the same sign 
@@ -113,6 +119,44 @@ Steps:
 ### Role of Overparameterization
 ![[img/Pasted image 20240306213656.png]]
 - Mikhail Belkin says overparameterization allows for basins of global minima even if not convex locally
+
+### Lipschitz Continuity for Step size
+- Assume that the gradient of our loss function is Lipschitz continuous
+	- TODO: add formula here
+- Assume constant step size for now. 
+	- TODO: include derivation here
+- Eventually we get to $\alpha=1/L$, where L is our Lipshitz constant
+	- TODO: add inequality 
+- Equality is achieved when the norm of the gradient is 0, indicating convergence
+
+**Optimality Gap**
+- At some iteration $t$, what is the difference from the optimum functoin value? 
+$$
+
+gap_{t}= f(w_{t}) - F_{*}
+$$
+- Start by invoking convexity of loss, to get bound: 
+	$$
+	F(w_{t}) \leq F_{*} + g_{t}^T (w_{t}- w^{*})
+$$
+- then invoke Cauchy Schwarz inequality to get upper bound: 
+	- TODO: add here
+
+**Effects from Initialization**
+- Gap depends on 1) norm of gradient. 2) how far away we are from global minimum (euclidean distance between current param vector and optimal one)
+	- but we don't know how this varies as a function of init
+	- intuitively, if our init is far away from optimal, then we need to take many more steps
+- The bound of terms of losses gives that the euclidean distance is farthest away from optimum at init (which is obvious???)
+	- TODO: add formula here
+- We eventually find that: TODO: add it here
+$$
+
+gap_{t} \leq \frac{2L||w_{0}-w^{*}||}{t+1}
+$$
+- Practically speaking, should you set the step size to the inverse of the Lipshitz constant? 
+	- NO, bc this is a pessimistic bound and must satisfy over all possible inputs (Supremum). This is same as finding the supremum of norm of Hessian, but this is intractable to compute for all inputs. 
+		- TODO: add hessian formula here
+
 
 #### Polyak-Łojasiewicz (PL) Condition
 $$||\nabla \mathcal{L}(w) ||^{2} \geq \mu(\mathcal L(w) - \mathcal L(w^{*}))$$

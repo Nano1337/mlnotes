@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "8965099210534527",
+        "id": "9a935a0534e50097",
         "type": "split",
         "children": [
           {
@@ -41,7 +41,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "RL/2. Optimization and MDPs.md",
+                    "file": "RL/3. Optimization and MDPs.md",
                     "mode": "source",
                     "source": false
                   }
@@ -139,11 +139,11 @@
             "currentTab": 2
           },
           {
-            "id": "986ed7680179f9ab",
+            "id": "26dfeea1857de531",
             "type": "tabs",
             "children": [
               {
-                "id": "d02a10e132037177",
+                "id": "bbf2e5e12effa005",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -173,8 +173,8 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 126,
-                        "data": "/Users/haoli/.zshrc:2: command not found: pyenv\r\n/Users/haoli/.zshrc:3: command not found: pyenv\r\nhaoli@ip-10-71-23-227 RL % ls\r\n1. Basic Terminology.md\u001b[9C2. Optimization and MDPs.md\r\nhaoli@ip-10-71-23-227 RL % cd ..\r\nhaoli@ip-10-71-23-227 mlnotes % ls\r\nDeep Learning\u001b[11CREADME.md\u001b[15CRandom Notes\u001b[12Cimg\r\nML Fundamentals\u001b[9CRL\u001b[22CTopics to Study.md\r\nhaoli@ip-10-71-23-227 mlnotes % git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31mRL/\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\nhaoli@ip-10-71-23-227 mlnotes % git",
+                        "columns": 69,
+                        "data": "/Users/haoli/.zshrc:2: command not found: pyenv\r\n/Users/haoli/.zshrc:3: command not found: pyenv\r\nhaoli@ip-10-71-23-227 RL % cd ..\r\nhaoli@ip-10-71-23-227 mlnotes % git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add/rm <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/community-plugins.json\r\n\u001b[8Cmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   ML Fundamentals/Optimization and Optimizers.md\r\n\u001b[8Cmodified:   ML Fundamentals/Parametric Learning.md\r\n\u001b[8Cmodified:   RL/1. Basic Terminology.md\r\n\u001b[8Cdeleted:    RL/2. Optimization and MDPs.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m.obsidian/plugins/obsidian-outliner/\r\n\u001b[8CML Fundamentals/Bayesian ML Fundamentals.md\r\n\u001b[8CRL/2. Multi-armed Bandits.md\r\n\u001b[8CRL/3. Optimization and MDPs.md\r\n\u001b[8CRL/img/\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\nhaoli@ip-10-71-23-227 mlnotes % git ad  \u001b[1D",
                         "rows": 17
                       }
                     }
@@ -235,7 +235,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 266.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "763a62e9b389612e",
@@ -309,12 +310,20 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d02a10e132037177",
+  "active": "bbf2e5e12effa005",
   "lastOpenFiles": [
-    "RL/2. Optimization and MDPs.md",
-    "ML Fundamentals/Parametric Learning.md",
-    "ML Fundamentals/Dimensionality Reduction.md",
+    "RL/3. Optimization and MDPs.md",
+    "RL/img/Pasted image 20240901130154.png",
+    "RL/img/Pasted image 20240901120059.png",
+    "RL/2. Multi-armed Bandits.md",
     "RL/1. Basic Terminology.md",
+    "RL/img/Pasted image 20240829104926.png",
+    "RL/img",
+    "ML Fundamentals/Optimization and Optimizers.md",
+    "ML Fundamentals/Parametric Learning.md",
+    "ML Fundamentals/Basic Stats.md",
+    "ML Fundamentals/Bayesian ML Fundamentals.md",
+    "ML Fundamentals/Dimensionality Reduction.md",
     "README.md",
     "Topics to Study.md",
     "RL",
@@ -327,10 +336,8 @@
     "ML Fundamentals",
     "Deep Learning/Diffusion Models.md",
     "Deep Learning/Autoencoders.md",
-    "ML Fundamentals/Basic Stats.md",
     "Deep Learning/Continual Learning.md",
     "ML Fundamentals/Performance Metrics.md",
-    "ML Fundamentals/Optimization and Optimizers.md",
     "ML Fundamentals/Clustering.md",
     "ML Fundamentals/Error Analysis.md",
     "Deep Learning/Adversarial Training and Robustness.md",
@@ -341,12 +348,9 @@
     "img/Pasted image 20240407203829.png",
     "img/Pasted image 20240407202828.png",
     "img/Pasted image 20240407200824.png",
-    "img/Pasted image 20240407004648.png",
     "Deep Learning/Deep Learning Blueprint.md",
     "Random Notes/Multimodal Pretrained Model Uncertainty.md",
     "Random Notes",
-    "img/Pasted image 20240306235001.png",
-    "img/Pasted image 20240306223630.png",
     "image.md",
     "README.md.md",
     "img"

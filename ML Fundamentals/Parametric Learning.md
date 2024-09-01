@@ -1,6 +1,5 @@
 
 ## Linear Regression
-Want to find line of best fit given our data, assuming that our data (x) and label (y) are related through a linear transformation. This can be achieved by minimizing the loss function Mean Squared Error (MSE): $$\mathcal{L}(\theta) = \frac{1}{m}\sum\limits_{m=1}^{m} (\theta^{T}x - y)^{2}$$ The solution can be found either through Gradient Descent (GD) or a Closed Form solution since linear regression always has a global optimum. 
 
 **Gradient Descent:** $$\theta_{t+1} = \theta_{t} - \alpha\nabla_{\theta}\mathcal{L}$$
 where $\nabla_{\theta}\mathcal{L}$ is the gradient, $\alpha$ is the learning rate. 
@@ -81,6 +80,17 @@ $$h_{\theta}(x) = \frac{1}{1 + e^{-\theta^{T}x}} = \sigma(\theta^{T}x)$$
 Likelihood is Bernoulli where p = $h_{\theta}(x)$ 
 Taking the log of the likelihood function, we get the loss function: 
 $$\mathcal{L}(\theta) = \sum\limits y\log h_{\theta}(x) + (1-y)(1-h_{\theta}(x))$$
+**Useful Properties of Logistic Functions**: 
+- Can show that $1-\sigma(a) = \sigma(-a)$, where $a = w^{T}x$
+- Partial deriv of $\sigma$(a) w.r.t. a is $\sigma(a)(1-\sigma(a)) = \sigma(a)\sigma(-a))$ 
+- inverse of logistic function is the logit function, which maps probabilities to log odds. Given by:
+- TODO: finish this and add domain and codomain
+	$$
+	logit(p) = \sigma^{-1}(p) = log()
+	$$
+- 
+Other fun facts: 
+- the step function that mimics logistic regression is called the Heaviside function. We don't use it cuz its non-differentiable 
 
 
 ## Gaussian Discriminant Analysis (GDA)
@@ -213,7 +223,8 @@ C changes the tolerance of misclassifications. Increasing C thus increases the l
 ## Regularization
 - Ridge (L2) weight norm, causes irrelevant features to converge towards 0. This is also used in case the pseudoinverse $X^{T}X$ is non-invertible in the closed form. The closed form is given by: 
 $$\theta = (X^{T}X + \lambda I)^{-1}X^{T}y$$
-- Lasso (L1) weight norm, causes sparsity by causing irrelevant features to eventually become 0. 
+	- This is also known as structural risk minimization as a measure of model preference
+- Lasso (L1) weight norm, causes sparsity by causing irrelevant features to eventually become 0, leading to weight sparsity. 
 
 **Maximum A Posterior (MAP)**: 
 - In Bayesian learning, the model itself is assumed to be stochastic. This is seen as: 
