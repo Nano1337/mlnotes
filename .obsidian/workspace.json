@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "9a935a0534e50097",
+        "id": "bccd0292e388d5ed",
         "type": "split",
         "children": [
           {
@@ -139,11 +139,11 @@
             "currentTab": 2
           },
           {
-            "id": "26dfeea1857de531",
+            "id": "79cf3bea1343a10a",
             "type": "tabs",
             "children": [
               {
-                "id": "bbf2e5e12effa005",
+                "id": "9d28bc254be6331e",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -174,7 +174,7 @@
                       },
                       "serial": {
                         "columns": 69,
-                        "data": "/Users/haoli/.zshrc:2: command not found: pyenv\r\n/Users/haoli/.zshrc:3: command not found: pyenv\r\nhaoli@ip-10-71-23-227 RL % cd ..\r\nhaoli@ip-10-71-23-227 mlnotes % git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add/rm <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/community-plugins.json\r\n\u001b[8Cmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   ML Fundamentals/Optimization and Optimizers.md\r\n\u001b[8Cmodified:   ML Fundamentals/Parametric Learning.md\r\n\u001b[8Cmodified:   RL/1. Basic Terminology.md\r\n\u001b[8Cdeleted:    RL/2. Optimization and MDPs.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m.obsidian/plugins/obsidian-outliner/\r\n\u001b[8CML Fundamentals/Bayesian ML Fundamentals.md\r\n\u001b[8CRL/2. Multi-armed Bandits.md\r\n\u001b[8CRL/3. Optimization and MDPs.md\r\n\u001b[8CRL/img/\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\nhaoli@ip-10-71-23-227 mlnotes % git ad  \u001b[1D",
+                        "data": "/Users/haoli/.zshrc:2: command not found: pyenv\r\n/Users/haoli/.zshrc:3: command not found: pyenv\r\nhaoli@ip-10-71-23-227 RL % cd ..\r\nhaoli@ip-10-71-23-227 mlnotes % git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   RL/3. Optimization and MDPs.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31mRL/img/Pasted image 20240901142012.png\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\nhaoli@ip-10-71-23-227 mlnotes % git",
                         "rows": 17
                       }
                     }
@@ -310,9 +310,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "bbf2e5e12effa005",
+  "active": "9d28bc254be6331e",
   "lastOpenFiles": [
     "RL/3. Optimization and MDPs.md",
+    "RL/img/Pasted image 20240901142012.png",
     "RL/img/Pasted image 20240901130154.png",
     "RL/img/Pasted image 20240901120059.png",
     "RL/2. Multi-armed Bandits.md",
@@ -347,7 +348,6 @@
     "img/Pasted image 20240407204203.png",
     "img/Pasted image 20240407203829.png",
     "img/Pasted image 20240407202828.png",
-    "img/Pasted image 20240407200824.png",
     "Deep Learning/Deep Learning Blueprint.md",
     "Random Notes/Multimodal Pretrained Model Uncertainty.md",
     "Random Notes",
