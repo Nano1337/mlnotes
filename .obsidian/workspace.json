@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "bccd0292e388d5ed",
+        "id": "3d7b7c745ceef8f1",
         "type": "split",
         "children": [
           {
@@ -41,7 +41,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "RL/3. Optimization and MDPs.md",
+                    "file": "RL/5. Monte Carlo Methods.md",
                     "mode": "source",
                     "source": false
                   }
@@ -139,11 +139,11 @@
             "currentTab": 2
           },
           {
-            "id": "79cf3bea1343a10a",
+            "id": "dd08dfaa8ba72a50",
             "type": "tabs",
             "children": [
               {
-                "id": "9d28bc254be6331e",
+                "id": "a62e6202b246812b",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -173,9 +173,9 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 69,
-                        "data": "/Users/haoli/.zshrc:2: command not found: pyenv\r\n/Users/haoli/.zshrc:3: command not found: pyenv\r\nhaoli@ip-10-71-23-227 RL % cd ..\r\nhaoli@ip-10-71-23-227 mlnotes % git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   RL/3. Optimization and MDPs.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31mRL/img/Pasted image 20240901142012.png\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\nhaoli@ip-10-71-23-227 mlnotes % git",
-                        "rows": 17
+                        "columns": 61,
+                        "data": "/Users/haoli/.zshrc:2: command not found: pyenv\r\n/Users/haoli/.zshrc:3: command not found: pyenv\r\n(base) haoli@ip-10-71-23-227 RL % git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   ../.obsidian/workspace.json\r\n\u001b[8Cmodified:   ../ML Fundamentals/Optimization and Optimizers.md\r\n\u001b[8Cmodified:   ../ML Fundamentals/Parametric Learning.md\r\n\u001b[8Cmodified:   4. Dynamic Programming.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m../ML Fundamentals/img/\r\n\u001b[8C5. Monte Carlo Methods.md\r\n\u001b[8Cimg/Pasted image 20240909011531.png\r\n\u001b[8Cimg/Pasted image 20240909225906.png\r\n\u001b[8Cimg/Pasted image 20240910110405.png\r\n\u001b[8Cimg/Pasted image 20240915013428.png\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n(base) haoli@ip-10-71-23-227 RL % git add .\r\n(base) haoli@ip-10-71-23-227 RL % git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mmodified:   4. Dynamic Programming.md\r\n\u001b[8Cnew file:   5. Monte Carlo Methods.md\r\n\u001b[8Cnew file:   img/Pasted image 20240909011531.png\r\n\u001b[8Cnew file:   img/Pasted image 20240909225906.png\r\n\u001b[8Cnew file:   img/Pasted image 20240910110405.png\r\n\u001b[8Cnew file:   img/Pasted image 20240915013428.png\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   ../.obsidian/workspace.json\r\n\u001b[8Cmodified:   ../ML Fundamentals/Optimization and Optimizers.md\r\n\u001b[8Cmodified:   ../ML Fundamentals/Parametric Learning.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m../ML Fundamentals/img/\r\n\r\n\u001b[0m(base) haoli@ip-10-71-23-227 RL % git add .  \r\n(base) haoli@ip-10-71-23-227 RL % git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mmodified:   4. Dynamic Programming.md\r\n\u001b[8Cnew file:   5. Monte Carlo Methods.md\r\n\u001b[8Cnew file:   img/Pasted image 20240909011531.png\r\n\u001b[8Cnew file:   img/Pasted image 20240909225906.png\r\n\u001b[8Cnew file:   img/Pasted image 20240910110405.png\r\n\u001b[8Cnew file:   img/Pasted image 20240915013428.png\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   ../.obsidian/workspace.json\r\n\u001b[8Cmodified:   ../ML Fundamentals/Optimization and Optimizers.md\r\n\u001b[8Cmodified:   ../ML Fundamentals/Parametric Learning.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m../ML Fundamentals/img/\r\n\r\n\u001b[0m(base) haoli@ip-10-71-23-227 RL % git add ../ML Fundamentals/img/\r\nfatal: pathspec '../ML' did not match any files\r\n(base) haoli@ip-10-71-23-227 RL % git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mmodified:   4. Dynamic Programming.md\r\n\u001b[8Cnew file:   5. Monte Carlo Methods.md\r\n\u001b[8Cnew file:   img/Pasted image 20240909011531.png\r\n\u001b[8Cnew file:   img/Pasted image 20240909225906.png\r\n\u001b[8Cnew file:   img/Pasted image 20240910110405.png\r\n\u001b[8Cnew file:   img/Pasted image 20240915013428.png\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   ../.obsidian/workspace.json\r\n\u001b[8Cmodified:   ../ML Fundamentals/Optimization and Optimizers.md\r\n\u001b[8Cmodified:   ../ML Fundamentals/Parametric Learning.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m../ML Fundamentals/img/\r\n\r\n\u001b[0m(base) haoli@ip-10-71-23-227 RL % cd ..\r\n(base) haoli@ip-10-71-23-227 mlnotes % ls\r\nDeep Learning\u001b[11CRandom Notes\r\nML Fundamentals\u001b[9CTopics to Study.md\r\nREADME.md\u001b[15Cimg\r\nRL\r\n(base) haoli@ip-10-71-23-227 mlnotes % git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mmodified:   RL/4. Dynamic Programming.md\r\n\u001b[8Cnew file:   RL/5. Monte Carlo Methods.md\r\n\u001b[8Cnew file:   RL/img/Pasted image 20240909011531.png\r\n\u001b[8Cnew file:   RL/img/Pasted image 20240909225906.png\r\n\u001b[8Cnew file:   RL/img/Pasted image 20240910110405.png\r\n\u001b[8Cnew file:   RL/img/Pasted image 20240915013428.png\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   ML Fundamentals/Optimization and Optimizers.md\r\n\u001b[8Cmodified:   ML Fundamentals/Parametric Learning.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31mML Fundamentals/img/\r\n\r\n\u001b[0m(base) haoli@ip-10-71-23-227 mlnotes % git ad",
+                        "rows": 16
                       }
                     }
                   },
@@ -310,18 +310,28 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "9d28bc254be6331e",
+  "active": "a62e6202b246812b",
   "lastOpenFiles": [
-    "RL/3. Optimization and MDPs.md",
-    "RL/img/Pasted image 20240901142012.png",
-    "RL/img/Pasted image 20240901130154.png",
-    "RL/img/Pasted image 20240901120059.png",
-    "RL/2. Multi-armed Bandits.md",
-    "RL/1. Basic Terminology.md",
-    "RL/img/Pasted image 20240829104926.png",
-    "RL/img",
+    "RL/5. Monte Carlo Methods.md",
+    "RL/img/Pasted image 20240915013428.png",
+    "RL/img/Pasted image 20240910110405.png",
+    "RL/4. Dynamic Programming.md",
+    "RL/img/Pasted image 20240909225906.png",
     "ML Fundamentals/Optimization and Optimizers.md",
+    "ML Fundamentals/img/Pasted image 20240909100003.png",
+    "ML Fundamentals/img/Pasted image 20240909094958.png",
+    "ML Fundamentals/img/Pasted image 20240909094410.png",
+    "ML Fundamentals/img",
     "ML Fundamentals/Parametric Learning.md",
+    "ML Fundamentals/Error Analysis.md",
+    "RL/img/Pasted image 20240909011531.png",
+    "RL/img/Pasted image 20240908185100.png",
+    "RL/3. Optimization and MDPs.md",
+    "RL/img/Pasted image 20240908182528.png",
+    "RL/2. Multi-armed Bandits.md",
+    "RL/img/Pasted image 20240901174806.png",
+    "RL/1. Basic Terminology.md",
+    "RL/img",
     "ML Fundamentals/Basic Stats.md",
     "ML Fundamentals/Bayesian ML Fundamentals.md",
     "ML Fundamentals/Dimensionality Reduction.md",
@@ -340,19 +350,10 @@
     "Deep Learning/Continual Learning.md",
     "ML Fundamentals/Performance Metrics.md",
     "ML Fundamentals/Clustering.md",
-    "ML Fundamentals/Error Analysis.md",
     "Deep Learning/Adversarial Training and Robustness.md",
-    "img/Pasted image 20240408084101.png",
-    "img/Pasted image 20240408084054.png",
-    "img/Pasted image 20240407215009.png",
-    "img/Pasted image 20240407204203.png",
-    "img/Pasted image 20240407203829.png",
-    "img/Pasted image 20240407202828.png",
     "Deep Learning/Deep Learning Blueprint.md",
     "Random Notes/Multimodal Pretrained Model Uncertainty.md",
     "Random Notes",
-    "image.md",
-    "README.md.md",
     "img"
   ]
 }

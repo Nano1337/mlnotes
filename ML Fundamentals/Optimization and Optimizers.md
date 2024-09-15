@@ -5,6 +5,74 @@ Assume we define $MSE = \frac{1}{2}||\Phi^{T}w - y||^2$, then the gradient can b
 $$g^{(t)} = \Phi^T\Phi w^{(t)} - \Phi^Ty$$
 Then the gradient update step would be: 
 $$w^{(t+1)} = w^{(t)} - \epsilon \nabla_{w}(\Phi^{T}\Phi w^{(t)} -\Phi^{T}y)$$
+### Assumptions: 
+- To analyze gradient descent, we make 2 assumptions about the loss function: 
+	- Loss function is convex. This allows us to understand the rate of convergence and dependence on init
+	- Gradient of loss function is Lipschitz continuous. This tells us what the step size should be
+
+#### Convexity
+- Convex combination:
+  $$
+  x, y \in \mathbb{R}^{D}, \lambda \in [0,1], (1-\lambda)z + \lambda y
+  $$
+- Convex Set: $X \subset \mathbb{R}^{D}$ where all convex combinations are elements of X
+- Epigraph of a function is set of points that are greater than or equal to function value (think about water filling up a cup, the water is the epigraph). This is formally: 
+  $$
+  f:X \rightarrow \mathbb{R}, Epi(f) = \{(x,y):x\in X, y \geq f(x)\}
+  $$
+- It follows that a function is convex iff epigraph is a convex set
+	- More intuitively interpreted as you can fill up the area above function if you can interpolate across all points in the function
+	  ![[Pasted image 20240909094410.png]]
+- A more useful definition of convexity: 
+  $$x, y\in X, f(x) \geq f(y) + \nabla f(y)^{T}(x-y)$$
+  ![[Pasted image 20240909094958.png]]
+- Third definition: 
+  $$
+  x\in X, d\in \mathbb{R}^{D}, d^{T}H(x)d \geq 0
+  $$
+  This shows that the Hessian is positive semidefinite (PSD). 
+  This condition also clearly shows that convex functions ONLY have global minima (not local) bc the PSD condition for Hessian would be violated in existence of local maxima (which is required for existence of local minima)
+
+#### Review of Eigenstuff
+- Given a symmetric matrix, the eigenvalue and eigenvectors satisfy: 
+  $$A\in \mathbb{R}^{D\times D}, Av_{i}= \lambda_{i}v_{i}$$
+- Further, distinct eigenvectors are orthogonal and unit norm (bc you scale by eigenvalue). Equivalently, if we make the eigenvectors as column vectors, then $V^{T}V = I$ 
+- If all eigenvalues are 0 and positive = positive semidefinite, if only positive (>0) then positive definite
+
+#### Types of Convexity: 
+- Strict Convexity: global minima corresponds to SINGLE point
+  ![[Pasted image 20240909100003.png]]
+- Strong Convexity: gives additional condition, same guarantees as strict convexity (unique global minimum) but that the area around the minimum is quadratic and thus optimization is easier: 
+  $$
+  f(y) \geq f(x) + \nabla f(x)^{T}(y-x) + c||y-x||^{2}, c >0
+  $$
+
+#### Analyzing Convexity of Logistic Regression
+- Starting with: 
+  $$
+  NLL=-y\log\sigma(w^{T}x) - (1-y)\log \sigma(-w^{T}x)
+  $$
+- Finding gradient using chain rule and simplifying, we get: 
+  $$
+  \nabla_{w}NLL=(\sigma(w^{T}x)-y)\cdot x
+  $$
+- Then compute Hessian: 
+  $$
+  H=\sigma(w^{T}x)(1-\sigma(w^{T}x))xx^T 
+  $$
+- Check PSD cond for convexity: 
+  $$
+  v^{T}(xx^{T})v = ||x^{T}v||^{2} \geq 0
+  $$
+  For each data point this would be: 
+  $$
+  H(w) = \sum\limits_{n=1}^{N}s_{w}(x_{n})x_{n}x_{n}^{T}
+  $$
+	- where $s_{w}(x_{n})=\sigma(w^{T}x)(1-\sigma(w^{T}x))$ 
+- Is this strictly convex? Recall that all eigenvalues must be strictly positive, e.g. hessian is full rank. If D>N then definitely not full rank (but otherwise dependent on span of input vectors). We can use ridge regression to make it full rank tho. 
+
+#### Lipshitz continuity
+
 
 ### Theoretical Upper Bound of $\epsilon$ 
 

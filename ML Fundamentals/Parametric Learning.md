@@ -83,12 +83,12 @@ $$\mathcal{L}(\theta) = \sum\limits y\log h_{\theta}(x) + (1-y)(1-h_{\theta}(x))
 **Useful Properties of Logistic Functions**: 
 - Can show that $1-\sigma(a) = \sigma(-a)$, where $a = w^{T}x$
 - Partial deriv of $\sigma$(a) w.r.t. a is $\sigma(a)(1-\sigma(a)) = \sigma(a)\sigma(-a))$ 
-- inverse of logistic function is the logit function, which maps probabilities to log odds. Given by:
-- TODO: finish this and add domain and codomain
+- inverse of logistic function is the logit function, which maps probabilities to log odds. Given by:$$
+	logit(p) = \sigma^{-1}(p) = log(\frac{1}{1-p})
 	$$
-	logit(p) = \sigma^{-1}(p) = log()
-	$$
-- 
+	- Logistic: $[-\infty, \infty] \rightarrow [0,1]$
+	- Logit: $[0, 1] \rightarrow [-\infty, \infty]$
+
 Other fun facts: 
 - the step function that mimics logistic regression is called the Heaviside function. We don't use it cuz its non-differentiable 
 
