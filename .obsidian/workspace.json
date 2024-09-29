@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "6700ef7a297c874c",
+        "id": "3ee1901757c5537f",
         "type": "split",
         "children": [
           {
@@ -29,7 +29,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Deep Learning/Continual Learning.md",
+                    "file": "ML Fundamentals/Adv ML Midterm Topics.md",
                     "mode": "source",
                     "source": false
                   }
@@ -41,7 +41,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "RL/5. Monte Carlo Methods.md",
+                    "file": "RL/6. Temporal-Difference Learning.md",
                     "mode": "source",
                     "source": false
                   }
@@ -136,21 +136,21 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
-            "id": "6be46b6b9dfcfeff",
+            "id": "47253b2135025d1d",
             "type": "tabs",
             "children": [
               {
-                "id": "44e4b7f107a27bb1",
+                "id": "7698220dad2bf58c",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
                     "terminal:terminal": {
-                      "cwd": "/Users/haoli/Documents/mlnotes/RL",
+                      "cwd": "/Users/haoli/Documents/mlnotes/ML Fundamentals",
                       "focus": false,
                       "profile": {
                         "args": [],
@@ -173,8 +173,8 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 61,
-                        "data": "/Users/haoli/.zshrc:2: command not found: pyenv\r\n/Users/haoli/.zshrc:3: command not found: pyenv\r\n(base) haoli@ip-10-71-23-227 RL % cd ..\r\n(base) haoli@ip-10-71-23-227 mlnotes % git statu",
+                        "columns": 53,
+                        "data": "/Users/haoli/.zshrc:2: command not found: pyenv\r\n/Users/haoli/.zshrc:3: command not found: pyenv\r\n(base) haoli@ip-10-71-58-101 ML Fundamentals % cd ..\r\n(base) haoli@ip-10-71-58-101 mlnotes % ls\r\nDeep Learning\u001b[11CRandom Notes\r\nML Fundamentals\u001b[9CTopics to Study.md\r\nREADME.md\u001b[15Cimg\r\nRL\r\n(base) haoli@ip-10-71-58-101 mlnotes % git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   ML Fundamentals/Bayesian ML Fundamentals.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31mML Fundamentals/Adv ML Midterm Topics.md\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923201014.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923201226.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923201234.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923201313.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923201524.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923201903.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923202019.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923202023.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923205141.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923205143.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923205422.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923205438.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923205540.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923205559.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923205616.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923205930.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240923205931.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240924112400.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240924154412.png\r\n\u001b[8CML Fundamentals/img/Pasted image 20240924154414.png\r\n\u001b[8CRL/6. Temporal-Difference Learning.md\r\n\u001b[8CRL/7.  n-step Bootstrapping.md\r\n\u001b[8CRL/8. Planning and Learning with Tabular Methods.md\r\n\u001b[8CRL/img/Pasted image 20240916001920.png\r\n\u001b[8CRL/img/Pasted image 20240917182726.png\r\n\u001b[8CRL/img/Pasted image 20240917183241.png\r\n\u001b[8CRL/img/Pasted image 20240917190224.png\r\n\u001b[8CRL/img/Pasted image 20240917192216.png\r\n\u001b[8CRL/img/Pasted image 20240917192836.png\r\n\u001b[8CRL/img/Pasted image 20240917231731.png\r\n\u001b[8CRL/img/Pasted image 20240917233803.png\r\n\u001b[8CRL/img/Pasted image 20240917234213.png\r\n\u001b[8CRL/img/Pasted image 20240918000813.png\r\n\u001b[8CRL/img/Pasted image 20240923143400.png\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n(base) haoli@ip-10-71-58-101 mlnotes %         \u001b[8D",
                         "rows": 16
                       }
                     }
@@ -310,30 +310,35 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "44e4b7f107a27bb1",
+  "active": "7698220dad2bf58c",
   "lastOpenFiles": [
+    "ML Fundamentals/Adv ML Midterm Topics.md",
+    "RL/6. Temporal-Difference Learning.md",
     "RL/5. Monte Carlo Methods.md",
-    "RL/img/Pasted image 20240916000914.png",
-    "RL/img/Pasted image 20240915235347.png",
-    "RL/img/Pasted image 20240915013428.png",
-    "RL/img/Pasted image 20240910110405.png",
+    "ML Fundamentals/Bayesian ML Fundamentals.md",
+    "Deep Learning/Continual Learning.md",
+    "ML Fundamentals/img/Pasted image 20240924154414.png",
+    "ML Fundamentals/img/Pasted image 20240924154412.png",
+    "ML Fundamentals/img/Pasted image 20240924112400.png",
+    "ML Fundamentals/img/Pasted image 20240923205931.png",
+    "ML Fundamentals/img/Pasted image 20240923205930.png",
+    "ML Fundamentals/img/Pasted image 20240923205616.png",
+    "ML Fundamentals/img/Pasted image 20240923205559.png",
+    "ML Fundamentals/img/Pasted image 20240923205540.png",
+    "ML Fundamentals/img/Pasted image 20240923205438.png",
+    "ML Fundamentals/img/Pasted image 20240923205422.png",
+    "RL/8. Planning and Learning with Tabular Methods.md",
+    "RL/7.  n-step Bootstrapping.md",
     "RL/4. Dynamic Programming.md",
-    "RL/img/Pasted image 20240909225906.png",
     "ML Fundamentals/Optimization and Optimizers.md",
-    "ML Fundamentals/img/Pasted image 20240909100003.png",
-    "ML Fundamentals/img/Pasted image 20240909094958.png",
-    "ML Fundamentals/img/Pasted image 20240909094410.png",
     "ML Fundamentals/img",
     "ML Fundamentals/Parametric Learning.md",
     "ML Fundamentals/Error Analysis.md",
-    "RL/img/Pasted image 20240909011531.png",
-    "RL/img/Pasted image 20240908185100.png",
     "RL/3. Optimization and MDPs.md",
     "RL/2. Multi-armed Bandits.md",
     "RL/1. Basic Terminology.md",
     "RL/img",
     "ML Fundamentals/Basic Stats.md",
-    "ML Fundamentals/Bayesian ML Fundamentals.md",
     "ML Fundamentals/Dimensionality Reduction.md",
     "README.md",
     "Topics to Study.md",
@@ -347,12 +352,8 @@
     "ML Fundamentals",
     "Deep Learning/Diffusion Models.md",
     "Deep Learning/Autoencoders.md",
-    "Deep Learning/Continual Learning.md",
     "ML Fundamentals/Performance Metrics.md",
     "ML Fundamentals/Clustering.md",
-    "Deep Learning/Adversarial Training and Robustness.md",
-    "Deep Learning/Deep Learning Blueprint.md",
-    "Random Notes/Multimodal Pretrained Model Uncertainty.md",
     "Random Notes",
     "img"
   ]
