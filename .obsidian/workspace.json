@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "a80cf11599919907",
+        "id": "5dca3ba484fc5e75",
         "type": "split",
         "children": [
           {
@@ -17,29 +17,58 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "MLSys/DistServe.md",
+                    "file": "MLSys/LLM Inference Scheduling.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "DistServe"
+                  "title": "LLM Inference Scheduling"
+                }
+              },
+              {
+                "id": "25dee002e56808bb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "LLM Serving - Role of Memory.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "LLM Serving - Role of Memory"
+                }
+              },
+              {
+                "id": "920086814df6e311",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Distributed Training.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Distributed Training"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
-            "id": "68c7419e3cce3f51",
+            "id": "36a9eeff125c9445",
             "type": "tabs",
             "children": [
               {
-                "id": "e977c4e490ca0d94",
+                "id": "6120f519f90fcff6",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
                     "terminal:terminal": {
-                      "cwd": "/Users/haoli/Documents/mlnotes/MLSys",
+                      "cwd": "/Users/haoli/Documents/mlnotes/",
                       "focus": false,
                       "profile": {
                         "args": [],
@@ -63,7 +92,7 @@
                       },
                       "serial": {
                         "columns": 53,
-                        "data": "git st\u001b[7;1m%\u001b[0m                                              \r\n(base) \u001b[32;1m➜  \u001b[36mMLSys\u001b[0m \u001b[34;1mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[0m git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   ../.obsidian/workspace.json\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m../ML Fundamentals/code snippets/\r\n\u001b[8C./\r\n\u001b[8C../RL/Challenges of Real-world RL.md\r\n\u001b[8C../RL/More Policy Gradient methods.md\r\n\u001b[8C../RL/Off-Policy, Policy Gradient, Actor-Critic.md\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n(base) \u001b[32;1m➜  \u001b[36mMLSys\u001b[0m \u001b[34;1mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[0m git add .\r\n(base) \u001b[32;1m➜  \u001b[36mMLSys\u001b[0m \u001b[34;1mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[0m git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mnew file:   DistServe.md\r\n\u001b[8Cnew file:   README.md\r\n\u001b[8Cnew file:   img/Pasted image 20250124100120.png\r\n\u001b[8Cnew file:   img/Pasted image 20250124100325.png\r\n\u001b[8Cnew file:   img/Pasted image 20250124100332.png\r\n\u001b[8Cnew file:   img/Pasted image 20250124103914.png\r\n\u001b[8Cnew file:   img/Pasted image 20250124104140.png\r\n\u001b[8Cnew file:   img/Pasted image 20250124112613.png\r\n\u001b[8Cnew file:   img/Pasted image 20250124112732.png\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   ../.obsidian/workspace.json\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m../ML Fundamentals/code snippets/\r\n\u001b[8C../RL/Challenges of Real-world RL.md\r\n\u001b[8C../RL/More Policy Gradient methods.md\r\n\u001b[8C../RL/Off-Policy, Policy Gradient, Actor-Critic.md\r\n\r\n\u001b[0m(base) \u001b[32;1m➜  \u001b[36mMLSys\u001b[0m \u001b[34;1mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[0m cd .. \r\n(base) \u001b[32;1m➜  \u001b[36mmlnotes\u001b[0m \u001b[34;1mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[0m git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mnew file:   MLSys/DistServe.md\r\n\u001b[8Cnew file:   MLSys/README.md\r\n\u001b[8Cnew file:   MLSys/img/Pasted image 20250124100120.png\r\n\u001b[8Cnew file:   MLSys/img/Pasted image 20250124100325.png\r\n\u001b[8Cnew file:   MLSys/img/Pasted image 20250124100332.png\r\n\u001b[8Cnew file:   MLSys/img/Pasted image 20250124103914.png\r\n\u001b[8Cnew file:   MLSys/img/Pasted image 20250124104140.png\r\n\u001b[8Cnew file:   MLSys/img/Pasted image 20250124112613.png\r\n\u001b[8Cnew file:   MLSys/img/Pasted image 20250124112732.png\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31mML Fundamentals/code snippets/\r\n\u001b[8CRL/Challenges of Real-world RL.md\r\n\u001b[8CRL/More Policy Gradient methods.md\r\n\u001b[8CRL/Off-Policy, Policy Gradient, Actor-Critic.md\r\n\r\n\u001b[0m(base) \u001b[32;1m➜  \u001b[36mmlnotes\u001b[0m \u001b[34;1mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[0m git add .\r\n(base) \u001b[32;1m➜  \u001b[36mmlnotes\u001b[0m \u001b[34;1mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[0m git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mmodified:   .obsidian/workspace.json\r\n\u001b[8Cnew file:   ML Fundamentals/code snippets/Safe Softmax.md\r\n\u001b[8Cnew file:   MLSys/DistServe.md\r\n\u001b[8Cnew file:   MLSys/README.md\r\n\u001b[8Cnew file:   MLSys/img/Pasted image 20250124100120.png\r\n\u001b[8Cnew file:   MLSys/img/Pasted image 20250124100325.png\r\n\u001b[8Cnew file:   MLSys/img/Pasted image 20250124100332.png\r\n\u001b[8Cnew file:   MLSys/img/Pasted image 20250124103914.png\r\n\u001b[8Cnew file:   MLSys/img/Pasted image 20250124104140.png\r\n\u001b[8Cnew file:   MLSys/img/Pasted image 20250124112613.png\r\n\u001b[8Cnew file:   MLSys/img/Pasted image 20250124112732.png\r\n\u001b[8Cnew file:   RL/Challenges of Real-world RL.md\r\n\u001b[8Cnew file:   RL/More Policy Gradient methods.md\r\n\u001b[8Cnew file:   RL/Off-Policy, Policy Gradient, Actor-Critic.md\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0m(base) \u001b[32;1m➜  \u001b[36mmlnotes\u001b[0m \u001b[34;1mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[0m git add    \u001b[3D",
+                        "data": "gi\u001b[7;1m%\u001b[0m                                                  \r\n(base) \u001b[32;1m➜  \u001b[36mmlnotes\u001b[0m \u001b[34;1mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[0m git status\r\nOn branch master\r\nYour branch is ahead of 'origin/master' by 1 commit.\r\n  (use \"git push\" to publish your local commits)\r\n\r\nChanges not staged for commit:\r\n  (use \"git add/rm <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\u001b[8Cdeleted:    MLSys/DistServe.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31mDistributed Training.md\r\n\u001b[8CLLM Serving - Role of Memory.md\r\n\u001b[8CMLSys/LLM Inference Scheduling.md\r\n\u001b[8Cimg/Pasted image 20250125153451.png\r\n\u001b[8Cimg/Pasted image 20250125154825.png\r\n\u001b[8Cimg/Pasted image 20250125155425.png\r\n\u001b[8Cimg/Pasted image 20250125155455.png\r\n\u001b[8Cimg/Pasted image 20250125155733.png\r\n\u001b[8Cimg/Pasted image 20250125162242.png\r\n\u001b[8Cimg/Pasted image 20250125162533.png\r\n\u001b[8Cimg/Pasted image 20250125162617.png\r\n\u001b[8Cimg/Pasted image 20250125162642.png\r\n\u001b[8Cimg/Pasted image 20250125162733.png\r\n\u001b[8Cimg/Pasted image 20250125162734.png\r\n\u001b[8Cimg/Pasted image 20250125162958.png\r\n\u001b[8Cimg/Pasted image 20250125163308.png\r\n\u001b[8Cimg/Pasted image 20250125163917.png\r\n\u001b[8Cimg/Pasted image 20250125163918.png\r\n\u001b[8Cimg/Pasted image 20250125163920.png\r\n\u001b[8Cimg/Pasted image 20250125163923.png\r\n\u001b[8Cimg/Pasted image 20250125164029.png\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n(base) \u001b[32;1m➜  \u001b[36mmlnotes\u001b[0m \u001b[34;1mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[0m git",
                         "rows": 16
                       }
                     }
@@ -219,22 +248,26 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "e977c4e490ca0d94",
+  "active": "6120f519f90fcff6",
   "lastOpenFiles": [
-    "MLSys/DistServe.md",
-    "MLSys/img/Pasted image 20250124112732.png",
-    "MLSys/img/Pasted image 20250124112613.png",
-    "MLSys/img/Pasted image 20250124104140.png",
-    "MLSys/img/Pasted image 20250124103914.png",
-    "MLSys/img/Pasted image 20250124100332.png",
-    "MLSys/img/Pasted image 20250124100325.png",
-    "MLSys/img/Pasted image 20250124100120.png",
+    "Distributed Training.md",
+    "img/Pasted image 20250125164029.png",
+    "img/Pasted image 20250125163923.png",
+    "img/Pasted image 20250125163920.png",
+    "img/Pasted image 20250125163918.png",
+    "img/Pasted image 20250125163917.png",
+    "img/Pasted image 20250125163308.png",
+    "img/Pasted image 20250125162958.png",
+    "img/Pasted image 20250125162734.png",
+    "img/Pasted image 20250125162733.png",
+    "img/Pasted image 20250125162642.png",
+    "LLM Serving - Role of Memory.md",
+    "MLSys/LLM Inference Scheduling.md",
     "MLSys/img",
     "MLSys/README.md",
     "Topics to Study.md",
     "MLSys",
     "README.md",
-    "Untitled.md",
     "RL/More Policy Gradient methods.md",
     "RL/Off-Policy, Policy Gradient, Actor-Critic.md",
     "RL/Untitled",
@@ -248,9 +281,6 @@
     "ML Fundamentals/Adv ML Midterm Topics.md",
     "ML Fundamentals/Bayesian ML Fundamentals.md",
     "Approximate Inference.md",
-    "img/Pasted image 20241001114549.png",
-    "img/Pasted image 20241001114442.png",
-    "img/Pasted image 20241001113251.png",
     "RL/6. Temporal-Difference Learning.md",
     "RL/5. Monte Carlo Methods.md",
     "Deep Learning/Continual Learning.md",
@@ -260,7 +290,6 @@
     "ML Fundamentals/img",
     "ML Fundamentals/Parametric Learning.md",
     "ML Fundamentals/Error Analysis.md",
-    "RL/3. Optimization and MDPs.md",
     "RL/img",
     "RL",
     "Untitled.canvas",

@@ -25,3 +25,7 @@
 ## DistServe: 
 - Disaggregating Prefill and Decode (decouple and put on separate workers)
 - Additional time added in networking bandwidth migrating from prefill worker to decode worker![[Pasted image 20250124112732.png]]
+- Potential issues of disaggregation: 
+	- overhead of comms
+	- machine failure
+
