@@ -1,0 +1,2 @@
+
+I was thinking that the Claude Code terminal being so great, one of the best trials would be to take documentation and collect context about each individual flow. Like, for example, flyte tasks that we have. Provide documentation and also maybe a few shot examples of existing cars or graphs, and then have Claude Code create that flyte graph in code like if you specify a diagram or some standardized programming language (e.g. HDL) for flyte graphs. This might be a really cool way to abstract away the low-levels of flat graphs. 
